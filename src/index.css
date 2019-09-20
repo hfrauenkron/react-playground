@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+::placeholder {
+  color: white;
+}
+
+.password-input:focus {
+  outline: 4px solid slateblue;
+}
