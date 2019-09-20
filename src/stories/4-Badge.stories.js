@@ -6,4 +6,4 @@ export default {
 };
 
 export const Sample = () => <Badge>Test</Badge>;
-export const Category = () => <Badge>Category</Badge>;
+export const Category = () => <Badge>Category </Badge>;
