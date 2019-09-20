@@ -3,6 +3,7 @@ import IconButton from "../components/IconButton";
 import Walk from "../icons/Walk";
 import { Euro } from "../icons/Euro";
 import { Restaurant } from "../icons/Restaurant";
+import { Star } from "../icons/Star";
 
 export default {
   title: "IconButton"
@@ -23,6 +24,12 @@ export const EuroIcon = () => (
 export const RestaurantIcon = () => (
   <IconButton>
     <Restaurant />
+  </IconButton>
+);
+
+export const StarIcon = () => (
+  <IconButton>
+    <Star />
   </IconButton>
 );
 
