@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const DetailsDiv = styled.div`
   display: flex;
@@ -14,3 +15,7 @@ const DetailsDiv = styled.div`
 export default function Details({ children }) {
   return <DetailsDiv>{children}</DetailsDiv>;
 }
+
+Details.propTypes = {
+  children: PropTypes.array
+};

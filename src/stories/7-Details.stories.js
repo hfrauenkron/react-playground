@@ -1,8 +1,8 @@
 import React from "react";
-import Details from "../components/Details";
 import Price from "../components/Price";
 import Rating from "../components/Rating";
 import Distance from "../components/Distance";
+import Details from "../components/Details";
 
 export default {
   title: "Details"
