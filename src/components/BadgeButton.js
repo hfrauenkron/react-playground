@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const BadgeButton = styled.button`
   height: 21px;
@@ -14,3 +15,7 @@ const BadgeButton = styled.button`
 export default function Badge({ children }) {
   return <BadgeButton>{children}</BadgeButton>;
 }
+
+Badge.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.bool])
+};

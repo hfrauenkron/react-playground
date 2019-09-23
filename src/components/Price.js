@@ -2,7 +2,7 @@ import React from "react";
 import { Euro } from "../icons/Euro";
 import Details from "./Details";
 
-export default function Price({ value }) {
+export default function Price({ value = 0 }) {
   return (
     <Details>
       <Euro />

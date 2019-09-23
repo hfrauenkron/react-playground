@@ -1,6 +1,7 @@
 import React from "react";
 import Walk from "../icons/Walk";
 import Details from "./Details";
+import PropTypes from "prop-types";
 
 export default function Distance(props) {
   return (
@@ -11,3 +12,7 @@ export default function Distance(props) {
     </Details>
   );
 }
+
+Details.propTypes = {
+  value: PropTypes.number
+};

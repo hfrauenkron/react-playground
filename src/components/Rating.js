@@ -1,6 +1,7 @@
 import React from "react";
 import { Star } from "../icons/Star";
 import Details from "./Details";
+import PropTypes from "prop-types";
 
 export default function Rating(props) {
   return (
@@ -11,3 +12,7 @@ export default function Rating(props) {
     </Details>
   );
 }
+
+Rating.propTypes = {
+  value: PropTypes.number
+};
